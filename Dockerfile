@@ -19,6 +19,7 @@ RUN apt-get update -y && apt-get install -y libpng-dev \
 &&  pecl install redis && pecl install mongodb
 
 #docker build -t php:v1 .
+
 #docker run --name php-fpm --mount type=bind,source="D:/phpstudy_zj/WWW",target=/www --mount type=bind,source="D:/phpstudy_zj/docker/php",target=/usr/local/etc/php/ -d php:v2
 
 #docker run --name php-nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d --link php-fpm:php nginx
