@@ -21,6 +21,5 @@ RUN apt-get update -y \
 
 #docker build -t php:v3 .
 
-#docker run --name php-fpm --mount type=bind,source="D:/phpstudy_zj/WWW",target=/www --mount type=bind,source="D:/phpstudy_zj/docker/php",target=/usr/local/etc/php/ -d php:v3
-
-#docker run --name php-nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d --link php-fpm:php nginx
+#docker run --name php-fpm  -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/php:/usr/local/etc/php/:cached -d php:v3
+#docker run --name php-nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d:cached --link php-fpm:php nginx
