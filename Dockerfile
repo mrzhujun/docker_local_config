@@ -22,4 +22,5 @@ RUN apt-get update -y \
 #docker build -t php:v3 .
 
 #docker run --name php-fpm  -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/php:/usr/local/etc/php/:cached -d php:v3
-#docker run --name php-nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d:cached --link php-fpm:php nginx
+#docker run --name nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d:cached  nginx
+#docker inspect php容器 | grep "IPAddress"  查看php容器的网络
