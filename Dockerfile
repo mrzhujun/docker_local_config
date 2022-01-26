@@ -1,7 +1,4 @@
-FROM php:7.3-fpm
-ENV PHP_DIR D:/phpstudy_zj/docker/php
-ENV WWW_DIR D:/phpstudy_zj/WWW
-ENV PHP_INI_DIR /usr/local/etc/php
+FROM php:7.4-fpm
 
 RUN apt-get update -y \
 && apt-get install -y libwebp-dev libjpeg-dev libpng-dev libfreetype6-dev \
@@ -19,7 +16,7 @@ RUN apt-get update -y \
 && docker-php-ext-install mysqli && docker-php-ext-enable mysqli \
 &&  pecl install redis && pecl install mongodb
 
-#docker build -t php:v3 .
+#docker build -t php:v4 .
 
 #docker run --name php-fpm  -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/php:/usr/local/etc/php/:cached -d php:v3
 #docker run --name nginx -p 80:80 -d -v D:/phpstudy_zj/WWW:/www:cached -v D:/phpstudy_zj/docker/nginx/conf/conf.d:/etc/nginx/conf.d:cached  nginx
