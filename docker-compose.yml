@@ -18,3 +18,22 @@ services:
         volumes: 
          - "${NGINX_CONFD_DIR}:/etc/nginx/conf.d"
          - "${SOURCE_DIR}:/www"
+         
+    mysql:
+        image: mysql
+        container_name: zj_mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: 123456
+        command:
+          --default-authentication-plugin=mysql_native_password
+          --character-set-server=utf8mb4
+          --collation-server=utf8mb4_general_ci
+          --explicit_defaults_for_timestamp=true
+          --lower_case_table_names=1
+          --max_allowed_packet=128M;
+          --bind-address=0.0.0.0
+        ports: 
+         - 3306:3306
+        volumes:
+         - "${MYSQL}:/var/lib/mysql"
+         - "${MYSQL_CONF}:/etc/mysql/conf.d"
