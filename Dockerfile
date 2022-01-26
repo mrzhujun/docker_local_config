@@ -8,6 +8,7 @@ RUN apt-get update -y \
     --with-webp \
     --with-jpeg \
     --with-freetype \
+&& docker-php-ext-install pcntl \
 && docker-php-ext-install gd && docker-php-ext-enable gd \
 && docker-php-ext-install pdo && docker-php-ext-enable pdo \
 && docker-php-ext-install pdo_mysql && docker-php-ext-enable pdo_mysql \
