@@ -4,12 +4,10 @@ RUN apt-get update -y \
 && apt-get install -y libwebp-dev libjpeg-dev libpng-dev libfreetype6-dev \
 && apt-get install -y libcurl4-openssl-dev pkg-config libssl-dev \
 &&  docker-php-ext-configure gd \
-    --with-gd \
-    --with-webp-dir \
-    --with-jpeg-dir \
-    --with-png-dir \
-    --with-zlib-dir \
-    --with-freetype-dir \
+    --enable-gd \
+    --with-webp \
+    --with-jpeg \
+    --with-freetype \
 && docker-php-ext-install gd && docker-php-ext-enable gd \
 && docker-php-ext-install pdo && docker-php-ext-enable pdo \
 && docker-php-ext-install pdo_mysql && docker-php-ext-enable pdo_mysql \
