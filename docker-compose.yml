@@ -6,6 +6,7 @@ services:
         ports: 
          - 9000:9000
          - 8686:8686
+         - 8787:8787
         volumes: 
          - "${SOURCE_DIR}:/www"
          - "${PHP_DIR}:/usr/local/etc/php"

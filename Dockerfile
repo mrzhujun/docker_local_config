@@ -13,7 +13,8 @@ RUN apt-get update -y \
 && docker-php-ext-install pdo && docker-php-ext-enable pdo \
 && docker-php-ext-install pdo_mysql && docker-php-ext-enable pdo_mysql \
 && docker-php-ext-install mysqli && docker-php-ext-enable mysqli \
-&&  pecl install redis && pecl install mongodb
+&& docker-php-ext-install bcmath && docker-php-ext-enable bcmath \
+&& pecl install redis && pecl install mongodb
 
 #docker build -t php:v4 .
 
