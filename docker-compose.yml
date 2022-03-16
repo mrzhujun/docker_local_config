@@ -1,12 +1,12 @@
-version: "3"
 services:
     php: 
-        image: 450453892/php:v4
+        image: 450453892/php:v5-ffmpeg
         container_name: zj_php
         ports: 
          - 9000:9000
          - 8686:8686
          - 8787:8787
+         - 7533:7533
         volumes: 
          - "${SOURCE_DIR}:/www"
          - "${PHP_DIR}:/usr/local/etc/php"

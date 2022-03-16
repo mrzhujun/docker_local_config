@@ -1,0 +1,22 @@
+services:
+  rs1:
+    image: mongo:latest
+    ports: 
+     - 27017:27017
+    volumes:
+      - "G:/DEV/docker/mongoDB/rs1:/data"
+    command: mongod  --dbpath /data/db --logpath=/data/log/rs1.log --logappend --replSet rs1
+  rs2:
+    image: mongo:latest
+    ports: 
+     - 27018:27017
+    volumes:
+      - "G:/DEV/docker/mongoDB/rs2:/data"
+    command: mongod  --dbpath /data/db --logpath=/data/log/rs2.log --logappend --replSet rs1
+  rs3:
+    image: mongo:latest
+    ports: 
+     - 27019:27017
+    volumes:
+      - "G:/DEV/docker/mongoDB/rs3:/data"
+    command: mongod  --dbpath /data/db --logpath=/data/log/rs3.log --logappend --replSet rs1
