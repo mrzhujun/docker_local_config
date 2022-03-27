@@ -1,6 +1,6 @@
 services:
     php: 
-        image: 450453892/php:v5-ffmpeg
+        image: php:v71
         container_name: zj_php
         ports: 
          - 9000:9000
@@ -15,14 +15,14 @@ services:
         image: nginx
         container_name: zj_nginx
         ports: 
-         - 80:80
+         - 8080:80
         working_dir: /www
         volumes: 
          - "${NGINX_CONFD_DIR}:/etc/nginx/conf.d"
          - "${SOURCE_DIR}:/www"
          
     mysql:
-        image: mysql
+        image: mysql/mysql-server
         container_name: zj_mysql
         environment: 
             MYSQL_ROOT_PASSWORD: 123456
