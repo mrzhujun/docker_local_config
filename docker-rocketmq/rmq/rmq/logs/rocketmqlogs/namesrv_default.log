@@ -1,0 +1,20 @@
+2022-04-10 21:42:32 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@610694f1
+2022-04-10 21:42:32 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@35d176f7
+2022-04-10 21:42:32 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1dfe2924
+2022-04-10 21:42:32 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6ebc05a6
+2022-04-10 21:42:32 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x848c7d55]'
+2022-04-10 21:51:25 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@610694f1
+2022-04-10 21:51:25 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@35d176f7
+2022-04-10 21:51:25 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1dfe2924
+2022-04-10 21:51:25 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6ebc05a6
+2022-04-10 21:51:26 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x4841c5f2]'
+2022-04-10 22:05:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@610694f1
+2022-04-10 22:05:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@35d176f7
+2022-04-10 22:05:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1dfe2924
+2022-04-10 22:05:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6ebc05a6
+2022-04-10 22:05:53 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0xac4fd81c]'
+2022-04-10 22:22:04 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@610694f1
+2022-04-10 22:22:04 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@35d176f7
+2022-04-10 22:22:04 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1dfe2924
+2022-04-10 22:22:04 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6ebc05a6
+2022-04-10 22:22:04 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0xb9df976b]'
