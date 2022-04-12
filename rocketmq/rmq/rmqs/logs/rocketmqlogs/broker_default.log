@@ -1,0 +1,18 @@
+2022-04-10 21:42:51 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@305fd85d
+2022-04-10 21:42:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@44f75083
+2022-04-10 21:42:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@69379752
+2022-04-10 21:42:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@27fe3806
+2022-04-10 21:42:52 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5f71c76a
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@305fd85d
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@44f75083
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@69379752
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@27fe3806
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@5f71c76a
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@147ed70f
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@124c278f
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@15b204a1
+2022-04-10 22:22:27 INFO main - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@77167fb7
+2022-04-10 22:22:27 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] ...
+2022-04-10 22:22:27 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] found.
+2022-04-10 22:22:27 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x90a4a953]'
+2022-04-10 22:22:27 WARN main - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x853954a5]'

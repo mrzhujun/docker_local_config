@@ -1,0 +1,115 @@
+2022-04-10 21:43:24 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2022-04-10 21:43:24 INFO main - last shutdown abnormally
+2022-04-10 21:43:24 INFO main - load commit log OK
+2022-04-10 21:43:24 INFO main - load logics queue all over, OK
+2022-04-10 21:43:24 INFO main - store checkpoint file exists, /home/rocketmq/store/checkpoint
+2022-04-10 21:43:24 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2022-04-10 21:43:24 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2022-04-10 21:43:24 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2022-04-10 21:43:24 WARN main - The commitlog files are deleted, and delete the consume queue files
+2022-04-10 21:43:24 INFO main - load over, and the max phy offset = 0
+2022-04-10 21:43:25 INFO main - [SetReputOffset] maxPhysicalPosInLogicQueue=0 clMinOffset=-1 clMaxOffset=0 clConfirmedOffset=-1
+2022-04-10 21:43:25 INFO ReputMessageService - ReputMessageService service started
+2022-04-10 21:43:25 INFO AcceptSocketService - AcceptSocketService service started
+2022-04-10 21:43:25 INFO GroupTransferService - GroupTransferService service started
+2022-04-10 21:43:25 INFO HAClient - HAClient service started
+2022-04-10 21:43:25 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2022-04-10 21:43:25 INFO FlushRealTimeService - FlushRealTimeService service started
+2022-04-10 21:43:25 INFO main - /home/rocketmq/store/abort already exists
+2022-04-10 21:43:25 INFO StoreStatsService - StoreStatsService service started
+2022-04-10 21:44:25 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2022-04-10 21:44:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:45:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.06663334999167082 get_transfered_tps 0.0
+2022-04-10 21:45:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:46:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331723000549734 get_transfered_tps 0.0
+2022-04-10 21:46:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:47:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330336030905518 get_transfered_tps 0.0
+2022-04-10 21:47:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:48:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033303914875193574 get_transfered_tps 0.0
+2022-04-10 21:48:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:49:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033304469459801506 get_transfered_tps 0.0
+2022-04-10 21:49:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:50:25 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333022512321833 get_transfered_tps 0.0
+2022-04-10 21:50:25 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:51:47 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2022-04-10 21:51:47 INFO main - last shutdown abnormally
+2022-04-10 21:51:47 INFO main - load commit log OK
+2022-04-10 21:51:47 INFO main - load logics queue all over, OK
+2022-04-10 21:51:47 INFO main - store checkpoint file exists, /home/rocketmq/store/checkpoint
+2022-04-10 21:51:47 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2022-04-10 21:51:47 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2022-04-10 21:51:47 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2022-04-10 21:51:47 WARN main - The commitlog files are deleted, and delete the consume queue files
+2022-04-10 21:51:47 INFO main - load over, and the max phy offset = 0
+2022-04-10 21:51:48 INFO main - [SetReputOffset] maxPhysicalPosInLogicQueue=0 clMinOffset=-1 clMaxOffset=0 clConfirmedOffset=-1
+2022-04-10 21:51:48 INFO ReputMessageService - ReputMessageService service started
+2022-04-10 21:51:48 INFO AcceptSocketService - AcceptSocketService service started
+2022-04-10 21:51:48 INFO GroupTransferService - GroupTransferService service started
+2022-04-10 21:51:48 INFO HAClient - HAClient service started
+2022-04-10 21:51:48 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2022-04-10 21:51:48 INFO FlushRealTimeService - FlushRealTimeService service started
+2022-04-10 21:51:48 INFO main - /home/rocketmq/store/abort already exists
+2022-04-10 21:51:48 INFO StoreStatsService - StoreStatsService service started
+2022-04-10 21:52:48 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2022-04-10 21:52:48 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 21:53:48 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333205604518268 get_transfered_tps 0.0
+2022-04-10 21:53:48 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:06:14 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2022-04-10 22:06:14 INFO main - last shutdown abnormally
+2022-04-10 22:06:14 INFO main - load commit log OK
+2022-04-10 22:06:14 INFO main - load logics queue all over, OK
+2022-04-10 22:06:14 INFO main - store checkpoint file exists, /home/rocketmq/store/checkpoint
+2022-04-10 22:06:14 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2022-04-10 22:06:14 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2022-04-10 22:06:14 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2022-04-10 22:06:14 WARN main - The commitlog files are deleted, and delete the consume queue files
+2022-04-10 22:06:14 INFO main - load over, and the max phy offset = 0
+2022-04-10 22:06:15 INFO main - [SetReputOffset] maxPhysicalPosInLogicQueue=0 clMinOffset=-1 clMaxOffset=0 clConfirmedOffset=-1
+2022-04-10 22:06:15 INFO ReputMessageService - ReputMessageService service started
+2022-04-10 22:06:15 INFO AcceptSocketService - AcceptSocketService service started
+2022-04-10 22:06:15 INFO GroupTransferService - GroupTransferService service started
+2022-04-10 22:06:15 INFO HAClient - HAClient service started
+2022-04-10 22:06:15 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2022-04-10 22:06:15 INFO StoreStatsService - StoreStatsService service started
+2022-04-10 22:06:15 INFO main - /home/rocketmq/store/abort already exists
+2022-04-10 22:06:15 INFO FlushRealTimeService - FlushRealTimeService service started
+2022-04-10 22:07:15 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2022-04-10 22:07:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:08:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.06661892310510802 get_transfered_tps 0.0
+2022-04-10 22:08:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:09:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330114222917846 get_transfered_tps 0.0
+2022-04-10 22:09:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:10:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033303914875193574 get_transfered_tps 0.0
+2022-04-10 22:10:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:11:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03329227286346839 get_transfered_tps 0.0
+2022-04-10 22:11:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:12:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033311125916055964 get_transfered_tps 0.0
+2022-04-10 22:12:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:13:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330114222917846 get_transfered_tps 0.0
+2022-04-10 22:13:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:14:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330724265991639 get_transfered_tps 0.0
+2022-04-10 22:14:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:15:15 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033296706955682084 get_transfered_tps 0.0
+2022-04-10 22:15:15 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:16:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
+2022-04-10 22:16:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:17:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330946155255401 get_transfered_tps 0.0
+2022-04-10 22:17:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:18:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033311125916055964 get_transfered_tps 0.0
+2022-04-10 22:18:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:19:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033301696721447956 get_transfered_tps 0.0
+2022-04-10 22:19:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:20:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330779735536089 get_transfered_tps 0.0
+2022-04-10 22:20:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:21:16 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330779735536089 get_transfered_tps 0.0
+2022-04-10 22:21:16 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2022-04-10 22:22:25 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2022-04-10 22:22:25 INFO main - last shutdown abnormally
+2022-04-10 22:22:25 INFO main - load commit log OK
+2022-04-10 22:22:25 INFO main - load logics queue all over, OK
+2022-04-10 22:22:25 INFO main - store checkpoint file exists, /home/rocketmq/store/checkpoint
+2022-04-10 22:22:25 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2022-04-10 22:22:25 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2022-04-10 22:22:25 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2022-04-10 22:22:25 WARN main - The commitlog files are deleted, and delete the consume queue files
+2022-04-10 22:22:25 INFO main - load over, and the max phy offset = 0
