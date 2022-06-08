@@ -1,0 +1,22 @@
+version: '3'
+services:
+  beike-php:
+    restart: always
+    container_name: beike-php
+    build:
+      context: ./
+    image: php:beike
+    links:
+      - beike-redis
+    ports:
+      - 8887:8887
+    volumes:
+      - ./:/var/www
+    tty: true
+
+  beike-redis:
+    restart: always
+    container_name: beike-redis
+    image: redis:6.2-alpine
+    ports:
+      - 6389:6379
