@@ -1,0 +1,1335 @@
+2022-04-10 21:43:24 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 21:43:24 INFO main - namesrvAddr=rocketmq:9876
+2022-04-10 21:43:24 INFO main - brokerIP1=broker
+2022-04-10 21:43:24 INFO main - brokerIP2=172.30.0.4
+2022-04-10 21:43:24 INFO main - brokerName=e1c8d07abded
+2022-04-10 21:43:24 INFO main - brokerClusterName=DefaultCluster
+2022-04-10 21:43:24 INFO main - brokerId=0
+2022-04-10 21:43:24 INFO main - brokerPermission=6
+2022-04-10 21:43:24 INFO main - defaultTopicQueueNums=8
+2022-04-10 21:43:24 INFO main - autoCreateTopicEnable=true
+2022-04-10 21:43:24 INFO main - clusterTopicEnable=true
+2022-04-10 21:43:24 INFO main - brokerTopicEnable=true
+2022-04-10 21:43:24 INFO main - autoCreateSubscriptionGroup=true
+2022-04-10 21:43:24 INFO main - messageStorePlugIn=
+2022-04-10 21:43:24 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2022-04-10 21:43:24 INFO main - traceTopicEnable=false
+2022-04-10 21:43:24 INFO main - sendMessageThreadPoolNums=4
+2022-04-10 21:43:24 INFO main - pullMessageThreadPoolNums=24
+2022-04-10 21:43:24 INFO main - processReplyMessageThreadPoolNums=24
+2022-04-10 21:43:24 INFO main - queryMessageThreadPoolNums=12
+2022-04-10 21:43:24 INFO main - adminBrokerThreadPoolNums=16
+2022-04-10 21:43:24 INFO main - clientManageThreadPoolNums=32
+2022-04-10 21:43:24 INFO main - consumerManageThreadPoolNums=32
+2022-04-10 21:43:24 INFO main - heartbeatThreadPoolNums=4
+2022-04-10 21:43:24 INFO main - endTransactionThreadPoolNums=16
+2022-04-10 21:43:24 INFO main - flushConsumerOffsetInterval=5000
+2022-04-10 21:43:24 INFO main - flushConsumerOffsetHistoryInterval=60000
+2022-04-10 21:43:24 INFO main - rejectTransactionMessage=false
+2022-04-10 21:43:24 INFO main - fetchNamesrvAddrByAddressServer=false
+2022-04-10 21:43:24 INFO main - sendThreadPoolQueueCapacity=10000
+2022-04-10 21:43:24 INFO main - pullThreadPoolQueueCapacity=100000
+2022-04-10 21:43:24 INFO main - replyThreadPoolQueueCapacity=10000
+2022-04-10 21:43:24 INFO main - queryThreadPoolQueueCapacity=20000
+2022-04-10 21:43:24 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2022-04-10 21:43:24 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2022-04-10 21:43:24 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2022-04-10 21:43:24 INFO main - endTransactionPoolQueueCapacity=100000
+2022-04-10 21:43:24 INFO main - filterServerNums=0
+2022-04-10 21:43:24 INFO main - longPollingEnable=true
+2022-04-10 21:43:24 INFO main - shortPollingTimeMills=1000
+2022-04-10 21:43:24 INFO main - notifyConsumerIdsChangedEnable=true
+2022-04-10 21:43:24 INFO main - highSpeedMode=false
+2022-04-10 21:43:24 INFO main - commercialEnable=true
+2022-04-10 21:43:24 INFO main - commercialTimerCount=1
+2022-04-10 21:43:24 INFO main - commercialTransCount=1
+2022-04-10 21:43:24 INFO main - commercialBigCount=1
+2022-04-10 21:43:24 INFO main - commercialBaseCount=1
+2022-04-10 21:43:24 INFO main - transferMsgByHeap=true
+2022-04-10 21:43:24 INFO main - maxDelayTime=40
+2022-04-10 21:43:24 INFO main - regionId=DefaultRegion
+2022-04-10 21:43:24 INFO main - registerBrokerTimeoutMills=6000
+2022-04-10 21:43:24 INFO main - slaveReadEnable=false
+2022-04-10 21:43:24 INFO main - disableConsumeIfConsumerReadSlowly=false
+2022-04-10 21:43:24 INFO main - consumerFallbehindThreshold=17179869184
+2022-04-10 21:43:24 INFO main - brokerFastFailureEnable=true
+2022-04-10 21:43:24 INFO main - waitTimeMillsInSendQueue=200
+2022-04-10 21:43:24 INFO main - waitTimeMillsInPullQueue=5000
+2022-04-10 21:43:24 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2022-04-10 21:43:24 INFO main - waitTimeMillsInTransactionQueue=3000
+2022-04-10 21:43:24 INFO main - startAcceptSendRequestTimeStamp=0
+2022-04-10 21:43:24 INFO main - traceOn=true
+2022-04-10 21:43:24 INFO main - enableCalcFilterBitMap=false
+2022-04-10 21:43:24 INFO main - expectConsumerNumUseFilter=32
+2022-04-10 21:43:24 INFO main - maxErrorRateOfBloomFilter=20
+2022-04-10 21:43:24 INFO main - filterDataCleanTimeSpan=86400000
+2022-04-10 21:43:24 INFO main - filterSupportRetry=false
+2022-04-10 21:43:24 INFO main - enablePropertyFilter=false
+2022-04-10 21:43:24 INFO main - compressedRegister=false
+2022-04-10 21:43:24 INFO main - forceRegister=true
+2022-04-10 21:43:24 INFO main - registerNameServerPeriod=30000
+2022-04-10 21:43:24 INFO main - transactionTimeOut=6000
+2022-04-10 21:43:24 INFO main - transactionCheckMax=15
+2022-04-10 21:43:24 INFO main - transactionCheckInterval=60000
+2022-04-10 21:43:24 INFO main - aclEnable=false
+2022-04-10 21:43:24 INFO main - storeReplyMessageEnable=true
+2022-04-10 21:43:24 INFO main - autoDeleteUnusedStats=false
+2022-04-10 21:43:24 INFO main - listenPort=10911
+2022-04-10 21:43:24 INFO main - serverWorkerThreads=8
+2022-04-10 21:43:24 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 21:43:24 INFO main - serverSelectorThreads=3
+2022-04-10 21:43:24 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 21:43:24 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 21:43:24 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 21:43:24 INFO main - serverSocketSndBufSize=131072
+2022-04-10 21:43:24 INFO main - serverSocketRcvBufSize=131072
+2022-04-10 21:43:24 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 21:43:24 INFO main - useEpollNativeSelector=false
+2022-04-10 21:43:24 INFO main - clientWorkerThreads=4
+2022-04-10 21:43:24 INFO main - clientCallbackExecutorThreads=4
+2022-04-10 21:43:24 INFO main - clientOnewaySemaphoreValue=65535
+2022-04-10 21:43:24 INFO main - clientAsyncSemaphoreValue=65535
+2022-04-10 21:43:24 INFO main - connectTimeoutMillis=3000
+2022-04-10 21:43:24 INFO main - channelNotActiveInterval=60000
+2022-04-10 21:43:24 INFO main - clientChannelMaxIdleTimeSeconds=120
+2022-04-10 21:43:24 INFO main - clientSocketSndBufSize=131072
+2022-04-10 21:43:24 INFO main - clientSocketRcvBufSize=131072
+2022-04-10 21:43:24 INFO main - clientPooledByteBufAllocatorEnable=false
+2022-04-10 21:43:24 INFO main - clientCloseSocketIfTimeout=true
+2022-04-10 21:43:24 INFO main - useTLS=false
+2022-04-10 21:43:24 INFO main - storePathRootDir=/home/rocketmq/store
+2022-04-10 21:43:24 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2022-04-10 21:43:24 INFO main - readOnlyCommitLogStorePaths=
+2022-04-10 21:43:24 INFO main - mappedFileSizeCommitLog=1073741824
+2022-04-10 21:43:24 INFO main - mappedFileSizeConsumeQueue=6000000
+2022-04-10 21:43:24 INFO main - enableConsumeQueueExt=false
+2022-04-10 21:43:24 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2022-04-10 21:43:24 INFO main - bitMapLengthConsumeQueueExt=64
+2022-04-10 21:43:24 INFO main - flushIntervalCommitLog=500
+2022-04-10 21:43:24 INFO main - commitIntervalCommitLog=200
+2022-04-10 21:43:24 INFO main - useReentrantLockWhenPutMessage=true
+2022-04-10 21:43:24 INFO main - flushCommitLogTimed=true
+2022-04-10 21:43:24 INFO main - flushIntervalConsumeQueue=1000
+2022-04-10 21:43:24 INFO main - cleanResourceInterval=10000
+2022-04-10 21:43:24 INFO main - deleteCommitLogFilesInterval=100
+2022-04-10 21:43:24 INFO main - deleteConsumeQueueFilesInterval=100
+2022-04-10 21:43:24 INFO main - destroyMapedFileIntervalForcibly=120000
+2022-04-10 21:43:24 INFO main - redeleteHangedFileInterval=120000
+2022-04-10 21:43:24 INFO main - deleteWhen=04
+2022-04-10 21:43:24 INFO main - diskMaxUsedSpaceRatio=75
+2022-04-10 21:43:24 INFO main - fileReservedTime=72
+2022-04-10 21:43:24 INFO main - putMsgIndexHightWater=600000
+2022-04-10 21:43:24 INFO main - maxMessageSize=4194304
+2022-04-10 21:43:24 INFO main - checkCRCOnRecover=true
+2022-04-10 21:43:24 INFO main - flushCommitLogLeastPages=4
+2022-04-10 21:43:24 INFO main - commitCommitLogLeastPages=4
+2022-04-10 21:43:24 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2022-04-10 21:43:24 INFO main - flushConsumeQueueLeastPages=2
+2022-04-10 21:43:24 INFO main - flushCommitLogThoroughInterval=10000
+2022-04-10 21:43:24 INFO main - commitCommitLogThoroughInterval=200
+2022-04-10 21:43:24 INFO main - flushConsumeQueueThoroughInterval=60000
+2022-04-10 21:43:24 INFO main - maxTransferBytesOnMessageInMemory=262144
+2022-04-10 21:43:24 INFO main - maxTransferCountOnMessageInMemory=32
+2022-04-10 21:43:24 INFO main - maxTransferBytesOnMessageInDisk=65536
+2022-04-10 21:43:24 INFO main - maxTransferCountOnMessageInDisk=8
+2022-04-10 21:43:24 INFO main - accessMessageInMemoryMaxRatio=40
+2022-04-10 21:43:24 INFO main - messageIndexEnable=true
+2022-04-10 21:43:24 INFO main - maxHashSlotNum=5000000
+2022-04-10 21:43:24 INFO main - maxIndexNum=20000000
+2022-04-10 21:43:24 INFO main - maxMsgsNumBatch=64
+2022-04-10 21:43:24 INFO main - messageIndexSafe=false
+2022-04-10 21:43:24 INFO main - haListenPort=10912
+2022-04-10 21:43:24 INFO main - haSendHeartbeatInterval=5000
+2022-04-10 21:43:24 INFO main - haHousekeepingInterval=20000
+2022-04-10 21:43:24 INFO main - haTransferBatchSize=32768
+2022-04-10 21:43:24 INFO main - haMasterAddress=
+2022-04-10 21:43:24 INFO main - haSlaveFallbehindMax=268435456
+2022-04-10 21:43:24 INFO main - brokerRole=ASYNC_MASTER
+2022-04-10 21:43:24 INFO main - flushDiskType=ASYNC_FLUSH
+2022-04-10 21:43:24 INFO main - syncFlushTimeout=5000
+2022-04-10 21:43:24 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2022-04-10 21:43:24 INFO main - flushDelayOffsetInterval=10000
+2022-04-10 21:43:24 INFO main - cleanFileForciblyEnable=true
+2022-04-10 21:43:24 INFO main - warmMapedFileEnable=false
+2022-04-10 21:43:24 INFO main - offsetCheckInSlave=false
+2022-04-10 21:43:24 INFO main - debugLockEnable=false
+2022-04-10 21:43:24 INFO main - duplicationEnable=false
+2022-04-10 21:43:24 INFO main - diskFallRecorded=true
+2022-04-10 21:43:24 INFO main - osPageCacheBusyTimeOutMills=1000
+2022-04-10 21:43:24 INFO main - defaultQueryMaxNum=32
+2022-04-10 21:43:24 INFO main - transientStorePoolEnable=false
+2022-04-10 21:43:24 INFO main - transientStorePoolSize=5
+2022-04-10 21:43:24 INFO main - fastFailIfNoBufferInStorePool=false
+2022-04-10 21:43:24 INFO main - enableDLegerCommitLog=false
+2022-04-10 21:43:24 INFO main - dLegerGroup=
+2022-04-10 21:43:24 INFO main - dLegerPeers=
+2022-04-10 21:43:24 INFO main - dLegerSelfId=
+2022-04-10 21:43:24 INFO main - preferredLeaderId=
+2022-04-10 21:43:24 INFO main - isEnableBatchPush=false
+2022-04-10 21:43:24 INFO main - enableScheduleMessageStats=true
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=SCHEDULE_TOPIC_XXXX, readQueueNums=18, writeQueueNums=18, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster_REPLY_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=cff3eff7e421, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:43:24 INFO main - load /home/rocketmq/store/config/topics.json OK
+2022-04-10 21:43:24 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2022-04-10 21:43:24 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2022-04-10 21:43:24 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2022-04-10 21:43:24 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 21:43:25 INFO main - Set user specified name server address: rocketmq:9876
+2022-04-10 21:43:25 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2022-04-10 21:43:25 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2022-04-10 21:43:25 INFO main - The broker dose not enable acl
+2022-04-10 21:43:25 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2022-04-10 21:43:25 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 21:43:25 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2022-04-10 21:43:25 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 21:43:25 INFO FileWatchService - FileWatchService service started
+2022-04-10 21:43:25 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2022-04-10 21:43:25 INFO PullRequestHoldService - PullRequestHoldService service started
+2022-04-10 21:43:25 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2022-04-10 21:43:25 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:43:25 INFO main - The broker[e1c8d07abded, broker:10911] boot success. serializeType=JSON and name server is rocketmq:9876
+2022-04-10 21:43:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:43:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:43:35 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:44:05 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:44:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:44:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:44:35 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:45:05 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:45:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:45:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:45:35 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:46:05 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:46:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:46:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:46:35 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:47:05 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:47:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:47:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:47:35 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:48:05 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:48:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:48:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:48:35 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:49:05 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:49:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:49:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:49:35 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:50:05 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:50:35 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:50:35 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:50:35 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:51:47 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 21:51:47 INFO main - namesrvAddr=rocketmq:9876
+2022-04-10 21:51:47 INFO main - brokerIP1=broker
+2022-04-10 21:51:47 INFO main - brokerIP2=172.31.0.4
+2022-04-10 21:51:47 INFO main - brokerName=071a9ec5774d
+2022-04-10 21:51:47 INFO main - brokerClusterName=DefaultCluster
+2022-04-10 21:51:47 INFO main - brokerId=0
+2022-04-10 21:51:47 INFO main - brokerPermission=6
+2022-04-10 21:51:47 INFO main - defaultTopicQueueNums=8
+2022-04-10 21:51:47 INFO main - autoCreateTopicEnable=true
+2022-04-10 21:51:47 INFO main - clusterTopicEnable=true
+2022-04-10 21:51:47 INFO main - brokerTopicEnable=true
+2022-04-10 21:51:47 INFO main - autoCreateSubscriptionGroup=true
+2022-04-10 21:51:47 INFO main - messageStorePlugIn=
+2022-04-10 21:51:47 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2022-04-10 21:51:47 INFO main - traceTopicEnable=false
+2022-04-10 21:51:47 INFO main - sendMessageThreadPoolNums=4
+2022-04-10 21:51:47 INFO main - pullMessageThreadPoolNums=24
+2022-04-10 21:51:47 INFO main - processReplyMessageThreadPoolNums=24
+2022-04-10 21:51:47 INFO main - queryMessageThreadPoolNums=12
+2022-04-10 21:51:47 INFO main - adminBrokerThreadPoolNums=16
+2022-04-10 21:51:47 INFO main - clientManageThreadPoolNums=32
+2022-04-10 21:51:47 INFO main - consumerManageThreadPoolNums=32
+2022-04-10 21:51:47 INFO main - heartbeatThreadPoolNums=4
+2022-04-10 21:51:47 INFO main - endTransactionThreadPoolNums=16
+2022-04-10 21:51:47 INFO main - flushConsumerOffsetInterval=5000
+2022-04-10 21:51:47 INFO main - flushConsumerOffsetHistoryInterval=60000
+2022-04-10 21:51:47 INFO main - rejectTransactionMessage=false
+2022-04-10 21:51:47 INFO main - fetchNamesrvAddrByAddressServer=false
+2022-04-10 21:51:47 INFO main - sendThreadPoolQueueCapacity=10000
+2022-04-10 21:51:47 INFO main - pullThreadPoolQueueCapacity=100000
+2022-04-10 21:51:47 INFO main - replyThreadPoolQueueCapacity=10000
+2022-04-10 21:51:47 INFO main - queryThreadPoolQueueCapacity=20000
+2022-04-10 21:51:47 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2022-04-10 21:51:47 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2022-04-10 21:51:47 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2022-04-10 21:51:47 INFO main - endTransactionPoolQueueCapacity=100000
+2022-04-10 21:51:47 INFO main - filterServerNums=0
+2022-04-10 21:51:47 INFO main - longPollingEnable=true
+2022-04-10 21:51:47 INFO main - shortPollingTimeMills=1000
+2022-04-10 21:51:47 INFO main - notifyConsumerIdsChangedEnable=true
+2022-04-10 21:51:47 INFO main - highSpeedMode=false
+2022-04-10 21:51:47 INFO main - commercialEnable=true
+2022-04-10 21:51:47 INFO main - commercialTimerCount=1
+2022-04-10 21:51:47 INFO main - commercialTransCount=1
+2022-04-10 21:51:47 INFO main - commercialBigCount=1
+2022-04-10 21:51:47 INFO main - commercialBaseCount=1
+2022-04-10 21:51:47 INFO main - transferMsgByHeap=true
+2022-04-10 21:51:47 INFO main - maxDelayTime=40
+2022-04-10 21:51:47 INFO main - regionId=DefaultRegion
+2022-04-10 21:51:47 INFO main - registerBrokerTimeoutMills=6000
+2022-04-10 21:51:47 INFO main - slaveReadEnable=false
+2022-04-10 21:51:47 INFO main - disableConsumeIfConsumerReadSlowly=false
+2022-04-10 21:51:47 INFO main - consumerFallbehindThreshold=17179869184
+2022-04-10 21:51:47 INFO main - brokerFastFailureEnable=true
+2022-04-10 21:51:47 INFO main - waitTimeMillsInSendQueue=200
+2022-04-10 21:51:47 INFO main - waitTimeMillsInPullQueue=5000
+2022-04-10 21:51:47 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2022-04-10 21:51:47 INFO main - waitTimeMillsInTransactionQueue=3000
+2022-04-10 21:51:47 INFO main - startAcceptSendRequestTimeStamp=0
+2022-04-10 21:51:47 INFO main - traceOn=true
+2022-04-10 21:51:47 INFO main - enableCalcFilterBitMap=false
+2022-04-10 21:51:47 INFO main - expectConsumerNumUseFilter=32
+2022-04-10 21:51:47 INFO main - maxErrorRateOfBloomFilter=20
+2022-04-10 21:51:47 INFO main - filterDataCleanTimeSpan=86400000
+2022-04-10 21:51:47 INFO main - filterSupportRetry=false
+2022-04-10 21:51:47 INFO main - enablePropertyFilter=false
+2022-04-10 21:51:47 INFO main - compressedRegister=false
+2022-04-10 21:51:47 INFO main - forceRegister=true
+2022-04-10 21:51:47 INFO main - registerNameServerPeriod=30000
+2022-04-10 21:51:47 INFO main - transactionTimeOut=6000
+2022-04-10 21:51:47 INFO main - transactionCheckMax=15
+2022-04-10 21:51:47 INFO main - transactionCheckInterval=60000
+2022-04-10 21:51:47 INFO main - aclEnable=false
+2022-04-10 21:51:47 INFO main - storeReplyMessageEnable=true
+2022-04-10 21:51:47 INFO main - autoDeleteUnusedStats=false
+2022-04-10 21:51:47 INFO main - listenPort=10911
+2022-04-10 21:51:47 INFO main - serverWorkerThreads=8
+2022-04-10 21:51:47 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 21:51:47 INFO main - serverSelectorThreads=3
+2022-04-10 21:51:47 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 21:51:47 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 21:51:47 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 21:51:47 INFO main - serverSocketSndBufSize=131072
+2022-04-10 21:51:47 INFO main - serverSocketRcvBufSize=131072
+2022-04-10 21:51:47 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 21:51:47 INFO main - useEpollNativeSelector=false
+2022-04-10 21:51:47 INFO main - clientWorkerThreads=4
+2022-04-10 21:51:47 INFO main - clientCallbackExecutorThreads=4
+2022-04-10 21:51:47 INFO main - clientOnewaySemaphoreValue=65535
+2022-04-10 21:51:47 INFO main - clientAsyncSemaphoreValue=65535
+2022-04-10 21:51:47 INFO main - connectTimeoutMillis=3000
+2022-04-10 21:51:47 INFO main - channelNotActiveInterval=60000
+2022-04-10 21:51:47 INFO main - clientChannelMaxIdleTimeSeconds=120
+2022-04-10 21:51:47 INFO main - clientSocketSndBufSize=131072
+2022-04-10 21:51:47 INFO main - clientSocketRcvBufSize=131072
+2022-04-10 21:51:47 INFO main - clientPooledByteBufAllocatorEnable=false
+2022-04-10 21:51:47 INFO main - clientCloseSocketIfTimeout=true
+2022-04-10 21:51:47 INFO main - useTLS=false
+2022-04-10 21:51:47 INFO main - storePathRootDir=/home/rocketmq/store
+2022-04-10 21:51:47 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2022-04-10 21:51:47 INFO main - readOnlyCommitLogStorePaths=
+2022-04-10 21:51:47 INFO main - mappedFileSizeCommitLog=1073741824
+2022-04-10 21:51:47 INFO main - mappedFileSizeConsumeQueue=6000000
+2022-04-10 21:51:47 INFO main - enableConsumeQueueExt=false
+2022-04-10 21:51:47 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2022-04-10 21:51:47 INFO main - bitMapLengthConsumeQueueExt=64
+2022-04-10 21:51:47 INFO main - flushIntervalCommitLog=500
+2022-04-10 21:51:47 INFO main - commitIntervalCommitLog=200
+2022-04-10 21:51:47 INFO main - useReentrantLockWhenPutMessage=true
+2022-04-10 21:51:47 INFO main - flushCommitLogTimed=true
+2022-04-10 21:51:47 INFO main - flushIntervalConsumeQueue=1000
+2022-04-10 21:51:47 INFO main - cleanResourceInterval=10000
+2022-04-10 21:51:47 INFO main - deleteCommitLogFilesInterval=100
+2022-04-10 21:51:47 INFO main - deleteConsumeQueueFilesInterval=100
+2022-04-10 21:51:47 INFO main - destroyMapedFileIntervalForcibly=120000
+2022-04-10 21:51:47 INFO main - redeleteHangedFileInterval=120000
+2022-04-10 21:51:47 INFO main - deleteWhen=04
+2022-04-10 21:51:47 INFO main - diskMaxUsedSpaceRatio=75
+2022-04-10 21:51:47 INFO main - fileReservedTime=72
+2022-04-10 21:51:47 INFO main - putMsgIndexHightWater=600000
+2022-04-10 21:51:47 INFO main - maxMessageSize=4194304
+2022-04-10 21:51:47 INFO main - checkCRCOnRecover=true
+2022-04-10 21:51:47 INFO main - flushCommitLogLeastPages=4
+2022-04-10 21:51:47 INFO main - commitCommitLogLeastPages=4
+2022-04-10 21:51:47 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2022-04-10 21:51:47 INFO main - flushConsumeQueueLeastPages=2
+2022-04-10 21:51:47 INFO main - flushCommitLogThoroughInterval=10000
+2022-04-10 21:51:47 INFO main - commitCommitLogThoroughInterval=200
+2022-04-10 21:51:47 INFO main - flushConsumeQueueThoroughInterval=60000
+2022-04-10 21:51:47 INFO main - maxTransferBytesOnMessageInMemory=262144
+2022-04-10 21:51:47 INFO main - maxTransferCountOnMessageInMemory=32
+2022-04-10 21:51:47 INFO main - maxTransferBytesOnMessageInDisk=65536
+2022-04-10 21:51:47 INFO main - maxTransferCountOnMessageInDisk=8
+2022-04-10 21:51:47 INFO main - accessMessageInMemoryMaxRatio=40
+2022-04-10 21:51:47 INFO main - messageIndexEnable=true
+2022-04-10 21:51:47 INFO main - maxHashSlotNum=5000000
+2022-04-10 21:51:47 INFO main - maxIndexNum=20000000
+2022-04-10 21:51:47 INFO main - maxMsgsNumBatch=64
+2022-04-10 21:51:47 INFO main - messageIndexSafe=false
+2022-04-10 21:51:47 INFO main - haListenPort=10912
+2022-04-10 21:51:47 INFO main - haSendHeartbeatInterval=5000
+2022-04-10 21:51:47 INFO main - haHousekeepingInterval=20000
+2022-04-10 21:51:47 INFO main - haTransferBatchSize=32768
+2022-04-10 21:51:47 INFO main - haMasterAddress=
+2022-04-10 21:51:47 INFO main - haSlaveFallbehindMax=268435456
+2022-04-10 21:51:47 INFO main - brokerRole=ASYNC_MASTER
+2022-04-10 21:51:47 INFO main - flushDiskType=ASYNC_FLUSH
+2022-04-10 21:51:47 INFO main - syncFlushTimeout=5000
+2022-04-10 21:51:47 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2022-04-10 21:51:47 INFO main - flushDelayOffsetInterval=10000
+2022-04-10 21:51:47 INFO main - cleanFileForciblyEnable=true
+2022-04-10 21:51:47 INFO main - warmMapedFileEnable=false
+2022-04-10 21:51:47 INFO main - offsetCheckInSlave=false
+2022-04-10 21:51:47 INFO main - debugLockEnable=false
+2022-04-10 21:51:47 INFO main - duplicationEnable=false
+2022-04-10 21:51:47 INFO main - diskFallRecorded=true
+2022-04-10 21:51:47 INFO main - osPageCacheBusyTimeOutMills=1000
+2022-04-10 21:51:47 INFO main - defaultQueryMaxNum=32
+2022-04-10 21:51:47 INFO main - transientStorePoolEnable=false
+2022-04-10 21:51:47 INFO main - transientStorePoolSize=5
+2022-04-10 21:51:47 INFO main - fastFailIfNoBufferInStorePool=false
+2022-04-10 21:51:47 INFO main - enableDLegerCommitLog=false
+2022-04-10 21:51:47 INFO main - dLegerGroup=
+2022-04-10 21:51:47 INFO main - dLegerPeers=
+2022-04-10 21:51:47 INFO main - dLegerSelfId=
+2022-04-10 21:51:47 INFO main - preferredLeaderId=
+2022-04-10 21:51:47 INFO main - isEnableBatchPush=false
+2022-04-10 21:51:47 INFO main - enableScheduleMessageStats=true
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=SCHEDULE_TOPIC_XXXX, readQueueNums=18, writeQueueNums=18, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster_REPLY_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=cff3eff7e421, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 21:51:47 INFO main - load /home/rocketmq/store/config/topics.json OK
+2022-04-10 21:51:47 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2022-04-10 21:51:47 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2022-04-10 21:51:47 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2022-04-10 21:51:47 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 21:51:48 INFO main - Set user specified name server address: rocketmq:9876
+2022-04-10 21:51:48 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2022-04-10 21:51:48 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2022-04-10 21:51:48 INFO main - The broker dose not enable acl
+2022-04-10 21:51:48 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2022-04-10 21:51:48 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 21:51:48 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2022-04-10 21:51:48 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 21:51:48 INFO FileWatchService - FileWatchService service started
+2022-04-10 21:51:48 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2022-04-10 21:51:48 INFO PullRequestHoldService - PullRequestHoldService service started
+2022-04-10 21:51:48 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2022-04-10 21:51:48 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:51:48 INFO main - The broker[071a9ec5774d, broker:10911] boot success. serializeType=JSON and name server is rocketmq:9876
+2022-04-10 21:51:58 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:51:58 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:51:58 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:52:28 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:52:58 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:52:58 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:52:58 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:53:28 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 21:53:58 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 21:53:58 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 21:53:58 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:06:14 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 22:06:14 INFO main - namesrvAddr=rocketmq:9876
+2022-04-10 22:06:14 INFO main - brokerIP1=broker
+2022-04-10 22:06:14 INFO main - brokerIP2=192.168.0.4
+2022-04-10 22:06:14 INFO main - brokerName=df6b6a3804f6
+2022-04-10 22:06:14 INFO main - brokerClusterName=DefaultCluster
+2022-04-10 22:06:14 INFO main - brokerId=0
+2022-04-10 22:06:14 INFO main - brokerPermission=6
+2022-04-10 22:06:14 INFO main - defaultTopicQueueNums=8
+2022-04-10 22:06:14 INFO main - autoCreateTopicEnable=true
+2022-04-10 22:06:14 INFO main - clusterTopicEnable=true
+2022-04-10 22:06:14 INFO main - brokerTopicEnable=true
+2022-04-10 22:06:14 INFO main - autoCreateSubscriptionGroup=true
+2022-04-10 22:06:14 INFO main - messageStorePlugIn=
+2022-04-10 22:06:14 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2022-04-10 22:06:14 INFO main - traceTopicEnable=false
+2022-04-10 22:06:14 INFO main - sendMessageThreadPoolNums=4
+2022-04-10 22:06:14 INFO main - pullMessageThreadPoolNums=24
+2022-04-10 22:06:14 INFO main - processReplyMessageThreadPoolNums=24
+2022-04-10 22:06:14 INFO main - queryMessageThreadPoolNums=12
+2022-04-10 22:06:14 INFO main - adminBrokerThreadPoolNums=16
+2022-04-10 22:06:14 INFO main - clientManageThreadPoolNums=32
+2022-04-10 22:06:14 INFO main - consumerManageThreadPoolNums=32
+2022-04-10 22:06:14 INFO main - heartbeatThreadPoolNums=4
+2022-04-10 22:06:14 INFO main - endTransactionThreadPoolNums=16
+2022-04-10 22:06:14 INFO main - flushConsumerOffsetInterval=5000
+2022-04-10 22:06:14 INFO main - flushConsumerOffsetHistoryInterval=60000
+2022-04-10 22:06:14 INFO main - rejectTransactionMessage=false
+2022-04-10 22:06:14 INFO main - fetchNamesrvAddrByAddressServer=false
+2022-04-10 22:06:14 INFO main - sendThreadPoolQueueCapacity=10000
+2022-04-10 22:06:14 INFO main - pullThreadPoolQueueCapacity=100000
+2022-04-10 22:06:14 INFO main - replyThreadPoolQueueCapacity=10000
+2022-04-10 22:06:14 INFO main - queryThreadPoolQueueCapacity=20000
+2022-04-10 22:06:14 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2022-04-10 22:06:14 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2022-04-10 22:06:14 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2022-04-10 22:06:14 INFO main - endTransactionPoolQueueCapacity=100000
+2022-04-10 22:06:14 INFO main - filterServerNums=0
+2022-04-10 22:06:14 INFO main - longPollingEnable=true
+2022-04-10 22:06:14 INFO main - shortPollingTimeMills=1000
+2022-04-10 22:06:14 INFO main - notifyConsumerIdsChangedEnable=true
+2022-04-10 22:06:14 INFO main - highSpeedMode=false
+2022-04-10 22:06:14 INFO main - commercialEnable=true
+2022-04-10 22:06:14 INFO main - commercialTimerCount=1
+2022-04-10 22:06:14 INFO main - commercialTransCount=1
+2022-04-10 22:06:14 INFO main - commercialBigCount=1
+2022-04-10 22:06:14 INFO main - commercialBaseCount=1
+2022-04-10 22:06:14 INFO main - transferMsgByHeap=true
+2022-04-10 22:06:14 INFO main - maxDelayTime=40
+2022-04-10 22:06:14 INFO main - regionId=DefaultRegion
+2022-04-10 22:06:14 INFO main - registerBrokerTimeoutMills=6000
+2022-04-10 22:06:14 INFO main - slaveReadEnable=false
+2022-04-10 22:06:14 INFO main - disableConsumeIfConsumerReadSlowly=false
+2022-04-10 22:06:14 INFO main - consumerFallbehindThreshold=17179869184
+2022-04-10 22:06:14 INFO main - brokerFastFailureEnable=true
+2022-04-10 22:06:14 INFO main - waitTimeMillsInSendQueue=200
+2022-04-10 22:06:14 INFO main - waitTimeMillsInPullQueue=5000
+2022-04-10 22:06:14 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2022-04-10 22:06:14 INFO main - waitTimeMillsInTransactionQueue=3000
+2022-04-10 22:06:14 INFO main - startAcceptSendRequestTimeStamp=0
+2022-04-10 22:06:14 INFO main - traceOn=true
+2022-04-10 22:06:14 INFO main - enableCalcFilterBitMap=false
+2022-04-10 22:06:14 INFO main - expectConsumerNumUseFilter=32
+2022-04-10 22:06:14 INFO main - maxErrorRateOfBloomFilter=20
+2022-04-10 22:06:14 INFO main - filterDataCleanTimeSpan=86400000
+2022-04-10 22:06:14 INFO main - filterSupportRetry=false
+2022-04-10 22:06:14 INFO main - enablePropertyFilter=false
+2022-04-10 22:06:14 INFO main - compressedRegister=false
+2022-04-10 22:06:14 INFO main - forceRegister=true
+2022-04-10 22:06:14 INFO main - registerNameServerPeriod=30000
+2022-04-10 22:06:14 INFO main - transactionTimeOut=6000
+2022-04-10 22:06:14 INFO main - transactionCheckMax=15
+2022-04-10 22:06:14 INFO main - transactionCheckInterval=60000
+2022-04-10 22:06:14 INFO main - aclEnable=false
+2022-04-10 22:06:14 INFO main - storeReplyMessageEnable=true
+2022-04-10 22:06:14 INFO main - autoDeleteUnusedStats=false
+2022-04-10 22:06:14 INFO main - listenPort=10911
+2022-04-10 22:06:14 INFO main - serverWorkerThreads=8
+2022-04-10 22:06:14 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 22:06:14 INFO main - serverSelectorThreads=3
+2022-04-10 22:06:14 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 22:06:14 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 22:06:14 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 22:06:14 INFO main - serverSocketSndBufSize=131072
+2022-04-10 22:06:14 INFO main - serverSocketRcvBufSize=131072
+2022-04-10 22:06:14 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 22:06:14 INFO main - useEpollNativeSelector=false
+2022-04-10 22:06:14 INFO main - clientWorkerThreads=4
+2022-04-10 22:06:14 INFO main - clientCallbackExecutorThreads=4
+2022-04-10 22:06:14 INFO main - clientOnewaySemaphoreValue=65535
+2022-04-10 22:06:14 INFO main - clientAsyncSemaphoreValue=65535
+2022-04-10 22:06:14 INFO main - connectTimeoutMillis=3000
+2022-04-10 22:06:14 INFO main - channelNotActiveInterval=60000
+2022-04-10 22:06:14 INFO main - clientChannelMaxIdleTimeSeconds=120
+2022-04-10 22:06:14 INFO main - clientSocketSndBufSize=131072
+2022-04-10 22:06:14 INFO main - clientSocketRcvBufSize=131072
+2022-04-10 22:06:14 INFO main - clientPooledByteBufAllocatorEnable=false
+2022-04-10 22:06:14 INFO main - clientCloseSocketIfTimeout=true
+2022-04-10 22:06:14 INFO main - useTLS=false
+2022-04-10 22:06:14 INFO main - storePathRootDir=/home/rocketmq/store
+2022-04-10 22:06:14 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2022-04-10 22:06:14 INFO main - readOnlyCommitLogStorePaths=
+2022-04-10 22:06:14 INFO main - mappedFileSizeCommitLog=1073741824
+2022-04-10 22:06:14 INFO main - mappedFileSizeConsumeQueue=6000000
+2022-04-10 22:06:14 INFO main - enableConsumeQueueExt=false
+2022-04-10 22:06:14 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2022-04-10 22:06:14 INFO main - bitMapLengthConsumeQueueExt=64
+2022-04-10 22:06:14 INFO main - flushIntervalCommitLog=500
+2022-04-10 22:06:14 INFO main - commitIntervalCommitLog=200
+2022-04-10 22:06:14 INFO main - useReentrantLockWhenPutMessage=true
+2022-04-10 22:06:14 INFO main - flushCommitLogTimed=true
+2022-04-10 22:06:14 INFO main - flushIntervalConsumeQueue=1000
+2022-04-10 22:06:14 INFO main - cleanResourceInterval=10000
+2022-04-10 22:06:14 INFO main - deleteCommitLogFilesInterval=100
+2022-04-10 22:06:14 INFO main - deleteConsumeQueueFilesInterval=100
+2022-04-10 22:06:14 INFO main - destroyMapedFileIntervalForcibly=120000
+2022-04-10 22:06:14 INFO main - redeleteHangedFileInterval=120000
+2022-04-10 22:06:14 INFO main - deleteWhen=04
+2022-04-10 22:06:14 INFO main - diskMaxUsedSpaceRatio=75
+2022-04-10 22:06:14 INFO main - fileReservedTime=72
+2022-04-10 22:06:14 INFO main - putMsgIndexHightWater=600000
+2022-04-10 22:06:14 INFO main - maxMessageSize=4194304
+2022-04-10 22:06:14 INFO main - checkCRCOnRecover=true
+2022-04-10 22:06:14 INFO main - flushCommitLogLeastPages=4
+2022-04-10 22:06:14 INFO main - commitCommitLogLeastPages=4
+2022-04-10 22:06:14 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2022-04-10 22:06:14 INFO main - flushConsumeQueueLeastPages=2
+2022-04-10 22:06:14 INFO main - flushCommitLogThoroughInterval=10000
+2022-04-10 22:06:14 INFO main - commitCommitLogThoroughInterval=200
+2022-04-10 22:06:14 INFO main - flushConsumeQueueThoroughInterval=60000
+2022-04-10 22:06:14 INFO main - maxTransferBytesOnMessageInMemory=262144
+2022-04-10 22:06:14 INFO main - maxTransferCountOnMessageInMemory=32
+2022-04-10 22:06:14 INFO main - maxTransferBytesOnMessageInDisk=65536
+2022-04-10 22:06:14 INFO main - maxTransferCountOnMessageInDisk=8
+2022-04-10 22:06:14 INFO main - accessMessageInMemoryMaxRatio=40
+2022-04-10 22:06:14 INFO main - messageIndexEnable=true
+2022-04-10 22:06:14 INFO main - maxHashSlotNum=5000000
+2022-04-10 22:06:14 INFO main - maxIndexNum=20000000
+2022-04-10 22:06:14 INFO main - maxMsgsNumBatch=64
+2022-04-10 22:06:14 INFO main - messageIndexSafe=false
+2022-04-10 22:06:14 INFO main - haListenPort=10912
+2022-04-10 22:06:14 INFO main - haSendHeartbeatInterval=5000
+2022-04-10 22:06:14 INFO main - haHousekeepingInterval=20000
+2022-04-10 22:06:14 INFO main - haTransferBatchSize=32768
+2022-04-10 22:06:14 INFO main - haMasterAddress=
+2022-04-10 22:06:14 INFO main - haSlaveFallbehindMax=268435456
+2022-04-10 22:06:14 INFO main - brokerRole=ASYNC_MASTER
+2022-04-10 22:06:14 INFO main - flushDiskType=ASYNC_FLUSH
+2022-04-10 22:06:14 INFO main - syncFlushTimeout=5000
+2022-04-10 22:06:14 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2022-04-10 22:06:14 INFO main - flushDelayOffsetInterval=10000
+2022-04-10 22:06:14 INFO main - cleanFileForciblyEnable=true
+2022-04-10 22:06:14 INFO main - warmMapedFileEnable=false
+2022-04-10 22:06:14 INFO main - offsetCheckInSlave=false
+2022-04-10 22:06:14 INFO main - debugLockEnable=false
+2022-04-10 22:06:14 INFO main - duplicationEnable=false
+2022-04-10 22:06:14 INFO main - diskFallRecorded=true
+2022-04-10 22:06:14 INFO main - osPageCacheBusyTimeOutMills=1000
+2022-04-10 22:06:14 INFO main - defaultQueryMaxNum=32
+2022-04-10 22:06:14 INFO main - transientStorePoolEnable=false
+2022-04-10 22:06:14 INFO main - transientStorePoolSize=5
+2022-04-10 22:06:14 INFO main - fastFailIfNoBufferInStorePool=false
+2022-04-10 22:06:14 INFO main - enableDLegerCommitLog=false
+2022-04-10 22:06:14 INFO main - dLegerGroup=
+2022-04-10 22:06:14 INFO main - dLegerPeers=
+2022-04-10 22:06:14 INFO main - dLegerSelfId=
+2022-04-10 22:06:14 INFO main - preferredLeaderId=
+2022-04-10 22:06:14 INFO main - isEnableBatchPush=false
+2022-04-10 22:06:14 INFO main - enableScheduleMessageStats=true
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=SCHEDULE_TOPIC_XXXX, readQueueNums=18, writeQueueNums=18, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster_REPLY_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=cff3eff7e421, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:06:14 INFO main - load /home/rocketmq/store/config/topics.json OK
+2022-04-10 22:06:14 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2022-04-10 22:06:14 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2022-04-10 22:06:14 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2022-04-10 22:06:14 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 22:06:15 INFO main - Set user specified name server address: rocketmq:9876
+2022-04-10 22:06:15 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2022-04-10 22:06:15 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2022-04-10 22:06:15 INFO main - The broker dose not enable acl
+2022-04-10 22:06:15 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2022-04-10 22:06:15 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2022-04-10 22:06:15 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2022-04-10 22:06:15 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 22:06:15 INFO FileWatchService - FileWatchService service started
+2022-04-10 22:06:15 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2022-04-10 22:06:15 INFO PullRequestHoldService - PullRequestHoldService service started
+2022-04-10 22:06:15 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2022-04-10 22:06:15 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:06:15 INFO main - The broker[df6b6a3804f6, broker:10911] boot success. serializeType=JSON and name server is rocketmq:9876
+2022-04-10 22:06:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:06:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:06:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:06:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:07:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:07:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:07:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:07:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:08:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:08:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:08:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:08:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:09:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:09:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:09:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:09:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:10:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:10:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:10:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:10:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:11:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:11:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:11:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:11:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:12:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:12:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:12:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:12:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:13:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:13:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:13:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:13:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:14:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:14:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:14:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:14:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:15:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:15:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:15:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:15:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:16:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:16:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:16:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:16:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:17:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:17:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:17:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:17:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:18:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:18:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:18:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:18:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:19:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:19:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:19:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:19:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:20:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:20:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:20:25 WARN brokerOutApi_thread_2 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:20:55 WARN brokerOutApi_thread_3 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:21:25 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2022-04-10 22:21:25 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2022-04-10 22:21:25 WARN brokerOutApi_thread_4 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:21:55 WARN brokerOutApi_thread_1 - registerBroker Exception, rocketmq:9876
+org.apache.rocketmq.remoting.exception.RemotingConnectException: connect to rocketmq:9876 failed
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:394) ~[rocketmq-remoting-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.registerBroker(BrokerOuterAPI.java:193) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI.access$000(BrokerOuterAPI.java:60) ~[rocketmq-broker-release.jar:release]
+	at org.apache.rocketmq.broker.out.BrokerOuterAPI$1.run(BrokerOuterAPI.java:149) ~[rocketmq-broker-release.jar:release]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_302]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_302]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_302]
+2022-04-10 22:22:24 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 22:22:24 INFO main - namesrvAddr=rocketmq:9876
+2022-04-10 22:22:24 INFO main - brokerIP1=broker
+2022-04-10 22:22:24 INFO main - brokerIP2=192.168.0.4
+2022-04-10 22:22:24 INFO main - brokerName=df6b6a3804f6
+2022-04-10 22:22:24 INFO main - brokerClusterName=DefaultCluster
+2022-04-10 22:22:24 INFO main - brokerId=0
+2022-04-10 22:22:24 INFO main - brokerPermission=6
+2022-04-10 22:22:24 INFO main - defaultTopicQueueNums=8
+2022-04-10 22:22:24 INFO main - autoCreateTopicEnable=true
+2022-04-10 22:22:24 INFO main - clusterTopicEnable=true
+2022-04-10 22:22:24 INFO main - brokerTopicEnable=true
+2022-04-10 22:22:24 INFO main - autoCreateSubscriptionGroup=true
+2022-04-10 22:22:24 INFO main - messageStorePlugIn=
+2022-04-10 22:22:24 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2022-04-10 22:22:24 INFO main - traceTopicEnable=false
+2022-04-10 22:22:24 INFO main - sendMessageThreadPoolNums=4
+2022-04-10 22:22:24 INFO main - pullMessageThreadPoolNums=24
+2022-04-10 22:22:24 INFO main - processReplyMessageThreadPoolNums=24
+2022-04-10 22:22:24 INFO main - queryMessageThreadPoolNums=12
+2022-04-10 22:22:24 INFO main - adminBrokerThreadPoolNums=16
+2022-04-10 22:22:24 INFO main - clientManageThreadPoolNums=32
+2022-04-10 22:22:24 INFO main - consumerManageThreadPoolNums=32
+2022-04-10 22:22:24 INFO main - heartbeatThreadPoolNums=4
+2022-04-10 22:22:24 INFO main - endTransactionThreadPoolNums=16
+2022-04-10 22:22:24 INFO main - flushConsumerOffsetInterval=5000
+2022-04-10 22:22:24 INFO main - flushConsumerOffsetHistoryInterval=60000
+2022-04-10 22:22:24 INFO main - rejectTransactionMessage=false
+2022-04-10 22:22:24 INFO main - fetchNamesrvAddrByAddressServer=false
+2022-04-10 22:22:24 INFO main - sendThreadPoolQueueCapacity=10000
+2022-04-10 22:22:24 INFO main - pullThreadPoolQueueCapacity=100000
+2022-04-10 22:22:24 INFO main - replyThreadPoolQueueCapacity=10000
+2022-04-10 22:22:24 INFO main - queryThreadPoolQueueCapacity=20000
+2022-04-10 22:22:24 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2022-04-10 22:22:24 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2022-04-10 22:22:24 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2022-04-10 22:22:24 INFO main - endTransactionPoolQueueCapacity=100000
+2022-04-10 22:22:24 INFO main - filterServerNums=0
+2022-04-10 22:22:24 INFO main - longPollingEnable=true
+2022-04-10 22:22:24 INFO main - shortPollingTimeMills=1000
+2022-04-10 22:22:24 INFO main - notifyConsumerIdsChangedEnable=true
+2022-04-10 22:22:24 INFO main - highSpeedMode=false
+2022-04-10 22:22:24 INFO main - commercialEnable=true
+2022-04-10 22:22:24 INFO main - commercialTimerCount=1
+2022-04-10 22:22:24 INFO main - commercialTransCount=1
+2022-04-10 22:22:24 INFO main - commercialBigCount=1
+2022-04-10 22:22:24 INFO main - commercialBaseCount=1
+2022-04-10 22:22:24 INFO main - transferMsgByHeap=true
+2022-04-10 22:22:24 INFO main - maxDelayTime=40
+2022-04-10 22:22:24 INFO main - regionId=DefaultRegion
+2022-04-10 22:22:24 INFO main - registerBrokerTimeoutMills=6000
+2022-04-10 22:22:24 INFO main - slaveReadEnable=false
+2022-04-10 22:22:24 INFO main - disableConsumeIfConsumerReadSlowly=false
+2022-04-10 22:22:24 INFO main - consumerFallbehindThreshold=17179869184
+2022-04-10 22:22:24 INFO main - brokerFastFailureEnable=true
+2022-04-10 22:22:24 INFO main - waitTimeMillsInSendQueue=200
+2022-04-10 22:22:24 INFO main - waitTimeMillsInPullQueue=5000
+2022-04-10 22:22:24 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2022-04-10 22:22:24 INFO main - waitTimeMillsInTransactionQueue=3000
+2022-04-10 22:22:24 INFO main - startAcceptSendRequestTimeStamp=0
+2022-04-10 22:22:24 INFO main - traceOn=true
+2022-04-10 22:22:24 INFO main - enableCalcFilterBitMap=false
+2022-04-10 22:22:24 INFO main - expectConsumerNumUseFilter=32
+2022-04-10 22:22:24 INFO main - maxErrorRateOfBloomFilter=20
+2022-04-10 22:22:24 INFO main - filterDataCleanTimeSpan=86400000
+2022-04-10 22:22:24 INFO main - filterSupportRetry=false
+2022-04-10 22:22:24 INFO main - enablePropertyFilter=false
+2022-04-10 22:22:24 INFO main - compressedRegister=false
+2022-04-10 22:22:24 INFO main - forceRegister=true
+2022-04-10 22:22:24 INFO main - registerNameServerPeriod=30000
+2022-04-10 22:22:24 INFO main - transactionTimeOut=6000
+2022-04-10 22:22:24 INFO main - transactionCheckMax=15
+2022-04-10 22:22:24 INFO main - transactionCheckInterval=60000
+2022-04-10 22:22:24 INFO main - aclEnable=false
+2022-04-10 22:22:24 INFO main - storeReplyMessageEnable=true
+2022-04-10 22:22:24 INFO main - autoDeleteUnusedStats=false
+2022-04-10 22:22:24 INFO main - listenPort=10911
+2022-04-10 22:22:24 INFO main - serverWorkerThreads=8
+2022-04-10 22:22:24 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 22:22:24 INFO main - serverSelectorThreads=3
+2022-04-10 22:22:24 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 22:22:24 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 22:22:24 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 22:22:24 INFO main - serverSocketSndBufSize=131072
+2022-04-10 22:22:24 INFO main - serverSocketRcvBufSize=131072
+2022-04-10 22:22:24 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 22:22:24 INFO main - useEpollNativeSelector=false
+2022-04-10 22:22:24 INFO main - clientWorkerThreads=4
+2022-04-10 22:22:24 INFO main - clientCallbackExecutorThreads=4
+2022-04-10 22:22:24 INFO main - clientOnewaySemaphoreValue=65535
+2022-04-10 22:22:24 INFO main - clientAsyncSemaphoreValue=65535
+2022-04-10 22:22:24 INFO main - connectTimeoutMillis=3000
+2022-04-10 22:22:24 INFO main - channelNotActiveInterval=60000
+2022-04-10 22:22:24 INFO main - clientChannelMaxIdleTimeSeconds=120
+2022-04-10 22:22:24 INFO main - clientSocketSndBufSize=131072
+2022-04-10 22:22:24 INFO main - clientSocketRcvBufSize=131072
+2022-04-10 22:22:24 INFO main - clientPooledByteBufAllocatorEnable=false
+2022-04-10 22:22:24 INFO main - clientCloseSocketIfTimeout=true
+2022-04-10 22:22:24 INFO main - useTLS=false
+2022-04-10 22:22:24 INFO main - storePathRootDir=/home/rocketmq/store
+2022-04-10 22:22:24 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2022-04-10 22:22:24 INFO main - readOnlyCommitLogStorePaths=
+2022-04-10 22:22:24 INFO main - mappedFileSizeCommitLog=1073741824
+2022-04-10 22:22:24 INFO main - mappedFileSizeConsumeQueue=6000000
+2022-04-10 22:22:24 INFO main - enableConsumeQueueExt=false
+2022-04-10 22:22:24 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2022-04-10 22:22:24 INFO main - bitMapLengthConsumeQueueExt=64
+2022-04-10 22:22:24 INFO main - flushIntervalCommitLog=500
+2022-04-10 22:22:24 INFO main - commitIntervalCommitLog=200
+2022-04-10 22:22:24 INFO main - useReentrantLockWhenPutMessage=true
+2022-04-10 22:22:24 INFO main - flushCommitLogTimed=true
+2022-04-10 22:22:24 INFO main - flushIntervalConsumeQueue=1000
+2022-04-10 22:22:24 INFO main - cleanResourceInterval=10000
+2022-04-10 22:22:24 INFO main - deleteCommitLogFilesInterval=100
+2022-04-10 22:22:24 INFO main - deleteConsumeQueueFilesInterval=100
+2022-04-10 22:22:24 INFO main - destroyMapedFileIntervalForcibly=120000
+2022-04-10 22:22:24 INFO main - redeleteHangedFileInterval=120000
+2022-04-10 22:22:24 INFO main - deleteWhen=04
+2022-04-10 22:22:24 INFO main - diskMaxUsedSpaceRatio=75
+2022-04-10 22:22:24 INFO main - fileReservedTime=72
+2022-04-10 22:22:24 INFO main - putMsgIndexHightWater=600000
+2022-04-10 22:22:24 INFO main - maxMessageSize=4194304
+2022-04-10 22:22:24 INFO main - checkCRCOnRecover=true
+2022-04-10 22:22:24 INFO main - flushCommitLogLeastPages=4
+2022-04-10 22:22:24 INFO main - commitCommitLogLeastPages=4
+2022-04-10 22:22:24 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2022-04-10 22:22:24 INFO main - flushConsumeQueueLeastPages=2
+2022-04-10 22:22:24 INFO main - flushCommitLogThoroughInterval=10000
+2022-04-10 22:22:24 INFO main - commitCommitLogThoroughInterval=200
+2022-04-10 22:22:24 INFO main - flushConsumeQueueThoroughInterval=60000
+2022-04-10 22:22:24 INFO main - maxTransferBytesOnMessageInMemory=262144
+2022-04-10 22:22:24 INFO main - maxTransferCountOnMessageInMemory=32
+2022-04-10 22:22:24 INFO main - maxTransferBytesOnMessageInDisk=65536
+2022-04-10 22:22:24 INFO main - maxTransferCountOnMessageInDisk=8
+2022-04-10 22:22:24 INFO main - accessMessageInMemoryMaxRatio=40
+2022-04-10 22:22:24 INFO main - messageIndexEnable=true
+2022-04-10 22:22:24 INFO main - maxHashSlotNum=5000000
+2022-04-10 22:22:24 INFO main - maxIndexNum=20000000
+2022-04-10 22:22:24 INFO main - maxMsgsNumBatch=64
+2022-04-10 22:22:24 INFO main - messageIndexSafe=false
+2022-04-10 22:22:24 INFO main - haListenPort=10912
+2022-04-10 22:22:24 INFO main - haSendHeartbeatInterval=5000
+2022-04-10 22:22:24 INFO main - haHousekeepingInterval=20000
+2022-04-10 22:22:24 INFO main - haTransferBatchSize=32768
+2022-04-10 22:22:24 INFO main - haMasterAddress=
+2022-04-10 22:22:24 INFO main - haSlaveFallbehindMax=268435456
+2022-04-10 22:22:24 INFO main - brokerRole=ASYNC_MASTER
+2022-04-10 22:22:24 INFO main - flushDiskType=ASYNC_FLUSH
+2022-04-10 22:22:24 INFO main - syncFlushTimeout=5000
+2022-04-10 22:22:24 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2022-04-10 22:22:24 INFO main - flushDelayOffsetInterval=10000
+2022-04-10 22:22:24 INFO main - cleanFileForciblyEnable=true
+2022-04-10 22:22:24 INFO main - warmMapedFileEnable=false
+2022-04-10 22:22:24 INFO main - offsetCheckInSlave=false
+2022-04-10 22:22:24 INFO main - debugLockEnable=false
+2022-04-10 22:22:24 INFO main - duplicationEnable=false
+2022-04-10 22:22:24 INFO main - diskFallRecorded=true
+2022-04-10 22:22:24 INFO main - osPageCacheBusyTimeOutMills=1000
+2022-04-10 22:22:24 INFO main - defaultQueryMaxNum=32
+2022-04-10 22:22:24 INFO main - transientStorePoolEnable=false
+2022-04-10 22:22:24 INFO main - transientStorePoolSize=5
+2022-04-10 22:22:24 INFO main - fastFailIfNoBufferInStorePool=false
+2022-04-10 22:22:24 INFO main - enableDLegerCommitLog=false
+2022-04-10 22:22:24 INFO main - dLegerGroup=
+2022-04-10 22:22:24 INFO main - dLegerPeers=
+2022-04-10 22:22:24 INFO main - dLegerSelfId=
+2022-04-10 22:22:24 INFO main - preferredLeaderId=
+2022-04-10 22:22:24 INFO main - isEnableBatchPush=false
+2022-04-10 22:22:24 INFO main - enableScheduleMessageStats=true
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=SCHEDULE_TOPIC_XXXX, readQueueNums=18, writeQueueNums=18, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster_REPLY_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=cff3eff7e421, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2022-04-10 22:22:25 INFO main - load /home/rocketmq/store/config/topics.json OK
+2022-04-10 22:22:25 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2022-04-10 22:22:25 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2022-04-10 22:22:25 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2022-04-10 22:22:25 INFO main - load /home/rocketmq/store/config/delayOffset.json OK

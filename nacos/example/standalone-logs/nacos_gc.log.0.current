@@ -1,0 +1,14 @@
+OpenJDK 64-Bit Server VM (25.322-b06) for linux-amd64 JRE (1.8.0_322-b06), built on Jan 27 2022 17:54:59 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-44)
+Memory: 4k page, physical 2036540k(448536k free), swap 1048572k(444324k free)
+CommandLine flags: -XX:GCLogFileSize=104857600 -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=536870912 -XX:NewSize=536870912 -XX:NumberOfGCLogFiles=10 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
+2022-04-09T23:43:31.201+0800: 6.995: [GC (Metadata GC Threshold) [PSYoungGen: 306722K->6633K(458752K)] 306722K->6705K(983040K), 0.1251123 secs] [Times: user=0.41 sys=0.02, real=0.13 secs] 
+2022-04-09T23:43:31.331+0800: 7.125: [Full GC (Metadata GC Threshold) [PSYoungGen: 6633K->0K(458752K)] [ParOldGen: 72K->6504K(524288K)] 6705K->6504K(983040K), [Metaspace: 20823K->20821K(1069056K)], 0.0763989 secs] [Times: user=0.18 sys=0.02, real=0.08 secs] 
+Heap
+ PSYoungGen      total 458752K, used 30953K [0x00000000e0000000, 0x0000000100000000, 0x0000000100000000)
+  eden space 393216K, 7% used [0x00000000e0000000,0x00000000e1e3a5b0,0x00000000f8000000)
+  from space 65536K, 0% used [0x00000000f8000000,0x00000000f8000000,0x00000000fc000000)
+  to   space 65536K, 0% used [0x00000000fc000000,0x00000000fc000000,0x0000000100000000)
+ ParOldGen       total 524288K, used 6504K [0x00000000c0000000, 0x00000000e0000000, 0x00000000e0000000)
+  object space 524288K, 1% used [0x00000000c0000000,0x00000000c065a390,0x00000000e0000000)
+ Metaspace       used 21288K, capacity 21812K, committed 21936K, reserved 1069056K
+  class space    used 2487K, capacity 2644K, committed 2736K, reserved 1048576K

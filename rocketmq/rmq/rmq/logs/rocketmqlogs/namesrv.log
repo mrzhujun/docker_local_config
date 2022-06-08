@@ -1,0 +1,166 @@
+2022-04-10 21:42:32 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 21:42:32 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2022-04-10 21:42:32 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2022-04-10 21:42:32 INFO main - productEnvName=center
+2022-04-10 21:42:32 INFO main - clusterTest=false
+2022-04-10 21:42:32 INFO main - orderMessageEnable=false
+2022-04-10 21:42:32 INFO main - listenPort=9876
+2022-04-10 21:42:32 INFO main - serverWorkerThreads=8
+2022-04-10 21:42:32 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 21:42:32 INFO main - serverSelectorThreads=3
+2022-04-10 21:42:32 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 21:42:32 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 21:42:32 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 21:42:32 INFO main - serverSocketSndBufSize=65535
+2022-04-10 21:42:32 INFO main - serverSocketRcvBufSize=65535
+2022-04-10 21:42:32 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 21:42:32 INFO main - useEpollNativeSelector=false
+2022-04-10 21:42:32 INFO main - Server is running in TLS permissive mode
+2022-04-10 21:42:32 INFO main - Tls config file doesn't exist, skip it
+2022-04-10 21:42:32 INFO main - Log the final used tls related configuration
+2022-04-10 21:42:32 INFO main - tls.test.mode.enable = true
+2022-04-10 21:42:32 INFO main - tls.server.need.client.auth = none
+2022-04-10 21:42:32 INFO main - tls.server.keyPath = null
+2022-04-10 21:42:32 INFO main - tls.server.keyPassword = null
+2022-04-10 21:42:32 INFO main - tls.server.certPath = null
+2022-04-10 21:42:32 INFO main - tls.server.authClient = false
+2022-04-10 21:42:32 INFO main - tls.server.trustCertPath = null
+2022-04-10 21:42:32 INFO main - tls.client.keyPath = null
+2022-04-10 21:42:32 INFO main - tls.client.keyPassword = null
+2022-04-10 21:42:32 INFO main - tls.client.certPath = null
+2022-04-10 21:42:32 INFO main - tls.client.authServer = false
+2022-04-10 21:42:32 INFO main - tls.client.trustCertPath = null
+2022-04-10 21:42:32 INFO main - Using JDK SSL provider
+2022-04-10 21:42:32 INFO main - SSLContext created for server
+2022-04-10 21:42:32 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 21:42:32 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-04-10 21:42:32 INFO main - The Name Server boot success. serializeType=JSON
+2022-04-10 21:42:32 INFO FileWatchService - FileWatchService service started
+2022-04-10 21:43:32 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 21:43:32 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 21:51:25 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 21:51:25 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2022-04-10 21:51:25 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2022-04-10 21:51:25 INFO main - productEnvName=center
+2022-04-10 21:51:25 INFO main - clusterTest=false
+2022-04-10 21:51:25 INFO main - orderMessageEnable=false
+2022-04-10 21:51:25 INFO main - listenPort=9876
+2022-04-10 21:51:25 INFO main - serverWorkerThreads=8
+2022-04-10 21:51:25 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 21:51:25 INFO main - serverSelectorThreads=3
+2022-04-10 21:51:25 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 21:51:25 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 21:51:25 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 21:51:25 INFO main - serverSocketSndBufSize=65535
+2022-04-10 21:51:25 INFO main - serverSocketRcvBufSize=65535
+2022-04-10 21:51:25 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 21:51:25 INFO main - useEpollNativeSelector=false
+2022-04-10 21:51:25 INFO main - Server is running in TLS permissive mode
+2022-04-10 21:51:25 INFO main - Tls config file doesn't exist, skip it
+2022-04-10 21:51:25 INFO main - Log the final used tls related configuration
+2022-04-10 21:51:25 INFO main - tls.test.mode.enable = true
+2022-04-10 21:51:25 INFO main - tls.server.need.client.auth = none
+2022-04-10 21:51:25 INFO main - tls.server.keyPath = null
+2022-04-10 21:51:25 INFO main - tls.server.keyPassword = null
+2022-04-10 21:51:25 INFO main - tls.server.certPath = null
+2022-04-10 21:51:25 INFO main - tls.server.authClient = false
+2022-04-10 21:51:25 INFO main - tls.server.trustCertPath = null
+2022-04-10 21:51:25 INFO main - tls.client.keyPath = null
+2022-04-10 21:51:25 INFO main - tls.client.keyPassword = null
+2022-04-10 21:51:25 INFO main - tls.client.certPath = null
+2022-04-10 21:51:25 INFO main - tls.client.authServer = false
+2022-04-10 21:51:25 INFO main - tls.client.trustCertPath = null
+2022-04-10 21:51:25 INFO main - Using JDK SSL provider
+2022-04-10 21:51:26 INFO main - SSLContext created for server
+2022-04-10 21:51:26 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 21:51:26 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-04-10 21:51:26 INFO FileWatchService - FileWatchService service started
+2022-04-10 21:51:26 INFO main - The Name Server boot success. serializeType=JSON
+2022-04-10 21:52:26 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 21:52:26 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 22:05:52 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 22:05:52 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2022-04-10 22:05:52 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2022-04-10 22:05:52 INFO main - productEnvName=center
+2022-04-10 22:05:52 INFO main - clusterTest=false
+2022-04-10 22:05:52 INFO main - orderMessageEnable=false
+2022-04-10 22:05:52 INFO main - listenPort=9876
+2022-04-10 22:05:52 INFO main - serverWorkerThreads=8
+2022-04-10 22:05:52 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 22:05:52 INFO main - serverSelectorThreads=3
+2022-04-10 22:05:52 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 22:05:52 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 22:05:52 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 22:05:52 INFO main - serverSocketSndBufSize=65535
+2022-04-10 22:05:52 INFO main - serverSocketRcvBufSize=65535
+2022-04-10 22:05:52 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 22:05:52 INFO main - useEpollNativeSelector=false
+2022-04-10 22:05:52 INFO main - Server is running in TLS permissive mode
+2022-04-10 22:05:52 INFO main - Tls config file doesn't exist, skip it
+2022-04-10 22:05:52 INFO main - Log the final used tls related configuration
+2022-04-10 22:05:52 INFO main - tls.test.mode.enable = true
+2022-04-10 22:05:52 INFO main - tls.server.need.client.auth = none
+2022-04-10 22:05:52 INFO main - tls.server.keyPath = null
+2022-04-10 22:05:52 INFO main - tls.server.keyPassword = null
+2022-04-10 22:05:52 INFO main - tls.server.certPath = null
+2022-04-10 22:05:52 INFO main - tls.server.authClient = false
+2022-04-10 22:05:52 INFO main - tls.server.trustCertPath = null
+2022-04-10 22:05:52 INFO main - tls.client.keyPath = null
+2022-04-10 22:05:52 INFO main - tls.client.keyPassword = null
+2022-04-10 22:05:52 INFO main - tls.client.certPath = null
+2022-04-10 22:05:52 INFO main - tls.client.authServer = false
+2022-04-10 22:05:52 INFO main - tls.client.trustCertPath = null
+2022-04-10 22:05:52 INFO main - Using JDK SSL provider
+2022-04-10 22:05:53 INFO main - SSLContext created for server
+2022-04-10 22:05:53 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 22:05:53 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-04-10 22:05:53 INFO main - The Name Server boot success. serializeType=JSON
+2022-04-10 22:05:53 INFO FileWatchService - FileWatchService service started
+2022-04-10 22:06:53 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 22:06:53 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 22:16:53 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 22:16:53 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 22:22:03 INFO main - rocketmqHome=/opt/soft/rocketmq
+2022-04-10 22:22:03 INFO main - kvConfigPath=/home/rocketmq/namesrv/kvConfig.json
+2022-04-10 22:22:03 INFO main - configStorePath=/home/rocketmq/namesrv/namesrv.properties
+2022-04-10 22:22:03 INFO main - productEnvName=center
+2022-04-10 22:22:03 INFO main - clusterTest=false
+2022-04-10 22:22:03 INFO main - orderMessageEnable=false
+2022-04-10 22:22:03 INFO main - listenPort=9876
+2022-04-10 22:22:03 INFO main - serverWorkerThreads=8
+2022-04-10 22:22:03 INFO main - serverCallbackExecutorThreads=0
+2022-04-10 22:22:03 INFO main - serverSelectorThreads=3
+2022-04-10 22:22:03 INFO main - serverOnewaySemaphoreValue=256
+2022-04-10 22:22:03 INFO main - serverAsyncSemaphoreValue=64
+2022-04-10 22:22:03 INFO main - serverChannelMaxIdleTimeSeconds=120
+2022-04-10 22:22:03 INFO main - serverSocketSndBufSize=65535
+2022-04-10 22:22:03 INFO main - serverSocketRcvBufSize=65535
+2022-04-10 22:22:03 INFO main - serverPooledByteBufAllocatorEnable=true
+2022-04-10 22:22:03 INFO main - useEpollNativeSelector=false
+2022-04-10 22:22:04 INFO main - Server is running in TLS permissive mode
+2022-04-10 22:22:04 INFO main - Tls config file doesn't exist, skip it
+2022-04-10 22:22:04 INFO main - Log the final used tls related configuration
+2022-04-10 22:22:04 INFO main - tls.test.mode.enable = true
+2022-04-10 22:22:04 INFO main - tls.server.need.client.auth = none
+2022-04-10 22:22:04 INFO main - tls.server.keyPath = null
+2022-04-10 22:22:04 INFO main - tls.server.keyPassword = null
+2022-04-10 22:22:04 INFO main - tls.server.certPath = null
+2022-04-10 22:22:04 INFO main - tls.server.authClient = false
+2022-04-10 22:22:04 INFO main - tls.server.trustCertPath = null
+2022-04-10 22:22:04 INFO main - tls.client.keyPath = null
+2022-04-10 22:22:04 INFO main - tls.client.keyPassword = null
+2022-04-10 22:22:04 INFO main - tls.client.certPath = null
+2022-04-10 22:22:04 INFO main - tls.client.authServer = false
+2022-04-10 22:22:04 INFO main - tls.client.trustCertPath = null
+2022-04-10 22:22:04 INFO main - Using JDK SSL provider
+2022-04-10 22:22:04 INFO main - SSLContext created for server
+2022-04-10 22:22:04 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2022-04-10 22:22:04 INFO NettyEventExecutor - NettyEventExecutor service started
+2022-04-10 22:22:04 INFO FileWatchService - FileWatchService service started
+2022-04-10 22:22:04 INFO main - The Name Server boot success. serializeType=JSON
+2022-04-10 22:23:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 22:23:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 22:33:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 22:33:04 INFO NSScheduledThread1 - configTable SIZE: 0
+2022-04-10 22:43:04 INFO NSScheduledThread1 - --------------------------------------------------------
+2022-04-10 22:43:04 INFO NSScheduledThread1 - configTable SIZE: 0
