@@ -1,0 +1,35 @@
+version: '3'
+services:
+  zhubei-nginx:
+    restart: always
+    container_name: zhubei-nginx
+    image: nginx
+    links:
+      - zhubei-php
+    volumes:
+      - ./nginx/conf/conf.d/:/etc/nginx/conf.d/
+      - ../../www:/www
+    ports:
+      - 80:80
+    tty: true
+  zhubei-php:
+    restart: always
+    container_name: zhubei-php
+    build:
+      context: ./
+    image: 450453892:php
+    volumes:
+      - ./nginx/conf/conf.d/:/etc/nginx/conf.d/
+      - ../../www:/www
+    links:
+      - zhubei-redis
+    ports:
+      - 9000:9000
+    tty: true
+
+  zhubei-redis:
+    restart: always
+    container_name: zhubei-redis
+    image: redis:6.2-alpine
+    ports:
+      - 6379:6379
