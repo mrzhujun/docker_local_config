@@ -19,7 +19,7 @@ services:
       context: ./
     image: 450453892:php
     volumes:
-      - ./nginx/conf/conf.d/:/etc/nginx/conf.d/
+      - ./php/conf.d/:/usr/local/etc/php/conf.d/
       - ../../www:/www
     links:
       - zhubei-redis
@@ -33,3 +33,11 @@ services:
     image: redis:6.2-alpine
     ports:
       - 6379:6379
+  zhubei-mysql:
+    restart: always
+    container_name: zhubei-mysql
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    ports:
+      - 3306:3306

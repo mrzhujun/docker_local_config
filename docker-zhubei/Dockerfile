@@ -13,7 +13,8 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     docker-php-ext-install sockets pcntl pdo_mysql bcmath zip fileinfo && \
     pecl install redis uuid && \
     docker-php-ext-enable redis uuid opcache fileinfo && \
-    pecl install event
+    pecl install event && \
+    pecl install mongodb
 
 COPY ./event.ini /usr/local/etc/php/conf.d/
 
@@ -27,6 +28,6 @@ RUN apk add --no-cache \
     --with-freetype=/usr/include/ && \
     docker-php-ext-install gd
 
-EXPOSE 8887
+EXPOSE 9000
 VOLUME /var/www
 WORKDIR /var/www
